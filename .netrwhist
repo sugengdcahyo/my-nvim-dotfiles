@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/'
+let g:netrw_dirhist_6='/home'
+let g:netrw_dirhist_5='/home/sg'
+let g:netrw_dirhist_4='/home/sg/.config'
+let g:netrw_dirhist_3='/home/sg/.config/nvim'
+let g:netrw_dirhist_2='/home/sg/.config/nvim/plugged'
+let g:netrw_dirhist_1='/home/sg/.local/share/nvim/site/plugin'
