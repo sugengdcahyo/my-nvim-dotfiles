@@ -1,0 +1,26 @@
+{
+  "prettier.requireConfig": true,
+  "python.linting.pylintArgs": ["--disable=C0111"],  
+  "python.linting.enabled": false,
+  "python.linting.pylintEnabled": false,
+  "python.formatting.provider": "yapf",
+
+  "editor.fontLigatures": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "Markdown",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "tsx",
+    "typescriptreact",
+    "python",
+    "cpp",
+    "cc",
+    "cs",
+    "c"
+  ],
+  "coc.preferences.colorSupport": false
+}
+
