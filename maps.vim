@@ -1,6 +1,6 @@
 " Description: Keymaps
 
-nnoremap <S-C-p> "0p
+nnoremap <S-C-p> "2p
 " Delete without yank
 nnoremap <leader>d "_d
 nnoremap x "_x
@@ -34,9 +34,12 @@ vnoremap <silent> # :<C-U>
 " Tabs
 
 " Open current directory
-nmap te :tabedit 
-nmap <S-Tab> :tabprev<Return>
-nmap <Tab> :tabnext<Return>
+nmap te :tabedit<Return><C-w>w
+nmap tn :tabnew<Return><C-w>w
+nmap t> :tabnext<Return><C-w>w
+nmap t< :tabprev<Return><C-w>w
+"nmap <S-Tab> :tabprev<Return>
+"nmap <Tab> :tabnext<Return>
 
 "------------------------------
 " Windows
